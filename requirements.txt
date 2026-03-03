@@ -8,5 +8,4 @@ qdrant-client==1.17.0
 unstructured==0.18.32
 unstructured[md]
 yandexcloud==0.378.0
-
 python-telegram-bot

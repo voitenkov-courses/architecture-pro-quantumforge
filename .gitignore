@@ -29,7 +29,7 @@ pkg/
 vendor/
 
 # IDE specific files
-.idea/
+.idea/*
 .vscode/
 *.swp
 *.swo

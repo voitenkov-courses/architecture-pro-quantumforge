@@ -1,0 +1,5 @@
+Humans were a species of sentient, bipedal mammals with bilateral symmetry. Throughout the galaxy, they constituted the culturally dominant species and were commonly encountered on most settled planets, from the bountiful planet of Naboo to the desert world of Tatooine. Some believed humans were possibly native to the planet Coruscant but that theory was disputed.
+
+They were known to engage in many different pursuits, from politics to bounty hunting. Species that bore structural resemblance to humans (bipedal gait, two arms and two legs, opposable thumb) were referred to as "humanoids." Species that were very physically similar to, but still distinct from baseline humans were referred to as "near-humans."
+
+By the time of the Galactic Civil War, humans were the galaxy's most numerous sentient species.[50] However, in total there were still more non-human sentients than humans,[53] so humans constituted a plurality rather than a majority of the galaxy's sentients.

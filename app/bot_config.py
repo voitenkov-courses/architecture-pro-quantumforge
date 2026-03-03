@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 # Initialize logging
 logging.basicConfig(
     level=logging.INFO,
-    filename="../logs/build_index.log",
+    filename="../logs/ragbot_log.log",
     filemode="a",
     format="%(asctime)s %(levelname)s %(message)s",
 )

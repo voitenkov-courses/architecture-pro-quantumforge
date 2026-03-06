@@ -1,0 +1,359 @@
+2026-02-25 10:23:22,906 INFO Читаем документы...
+2026-02-25 10:23:23,263 INFO HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main "HTTP/1.1 200 OK"
+2026-02-25 10:23:23,280 INFO  knowledge_base/The Force.md
+2026-02-25 10:23:23,280 INFO  knowledge_base/Star Wars: Episode VIII The Last Jedi.md
+2026-02-25 10:23:23,280 INFO  knowledge_base/Star Wars: Episode IX The Rise of Skywalker.md
+2026-02-25 10:23:23,281 INFO  knowledge_base/Luke Skywalker.md
+2026-02-25 10:23:23,281 INFO  knowledge_base/Chewbacca.md
+2026-02-25 10:23:23,281 INFO  knowledge_base/Star Wars: Episode I The Phantom Menace.md
+2026-02-25 10:23:23,281 INFO  knowledge_base/Star Wars: Episode VII The Force Awakens.md
+2026-02-25 10:23:23,281 INFO  knowledge_base/DS-1 Orbital Battle Station.md
+2026-02-25 10:23:23,281 INFO  knowledge_base/Star Wars: Episode III Revenge of the Sith.md
+2026-02-25 10:23:23,282 INFO  knowledge_base/Star Wars: Episode VI Return of the Jedi.md
+2026-02-25 10:23:23,282 INFO  knowledge_base/R2-D2.md
+2026-02-25 10:23:23,282 INFO  knowledge_base/Leia Skywalker Organa Solo.md
+2026-02-25 10:23:23,282 INFO  knowledge_base/T-65B X-wing starfighter.md
+2026-02-25 10:23:23,282 INFO  knowledge_base/Han Solo.md
+2026-02-25 10:23:23,282 INFO  knowledge_base/Millennium Falcon.md
+2026-02-25 10:23:23,282 INFO  knowledge_base/Darth Sidious.md
+2026-02-25 10:23:23,283 INFO  knowledge_base/Clone Wars.md
+2026-02-25 10:23:23,283 INFO  knowledge_base/Order 66.md
+2026-02-25 10:23:23,283 INFO  knowledge_base/Star Wars: Episode IV A New Hope.md
+2026-02-25 10:23:23,283 INFO  knowledge_base/Lightsaber.md
+2026-02-25 10:23:23,284 INFO  knowledge_base/Yoda.md
+2026-02-25 10:23:23,284 INFO  knowledge_base/Mandalorian.md
+2026-02-25 10:23:23,284 INFO  knowledge_base/Galactic Republic.md
+2026-02-25 10:23:23,284 INFO  knowledge_base/Clone Trooper.md
+2026-02-25 10:23:23,285 INFO  knowledge_base/Star Wars: Episode V The Empire Strikes Back.md
+2026-02-25 10:23:23,285 INFO  knowledge_base/Anakin Skywalker.md
+2026-02-25 10:23:23,285 INFO  knowledge_base/injection.md
+2026-02-25 10:23:23,285 INFO  knowledge_base/C-3PO.md
+2026-02-25 10:23:23,285 INFO  knowledge_base/Tatooine.md
+2026-02-25 10:23:23,285 INFO  knowledge_base/Star Wars: Episode II Attack of the Clones.md
+2026-02-25 10:23:23,285 INFO  knowledge_base/Obi-Wan Kenobi.md
+2026-02-25 10:23:23,285 INFO Прочитано 31 документов
+2026-02-25 10:23:23,290 INFO Документы разбиты на 454 чанков
+2026-02-25 10:23:23,318 INFO HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2026-02-25 10:23:23,351 INFO Выбран серверный Qdrant
+2026-02-25 10:23:23,357 INFO HTTP Request: PUT http://localhost:6333/collections/knowledge_base "HTTP/1.1 409 Conflict"
+2026-02-26 12:35:51,245 INFO Читаем документы...
+2026-02-26 12:35:51,486 INFO HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main "HTTP/1.1 200 OK"
+2026-02-26 12:35:51,510 INFO  ../knowledge_base/The Force.md
+2026-02-26 12:35:51,511 INFO  ../knowledge_base/Star Wars: Episode VIII The Last Jedi.md
+2026-02-26 12:35:51,511 INFO  ../knowledge_base/Star Wars: Episode IX The Rise of Skywalker.md
+2026-02-26 12:35:51,511 INFO  ../knowledge_base/Luke Skywalker.md
+2026-02-26 12:35:51,511 INFO  ../knowledge_base/Chewbacca.md
+2026-02-26 12:35:51,511 INFO  ../knowledge_base/Star Wars: Episode I The Phantom Menace.md
+2026-02-26 12:35:51,512 INFO  ../knowledge_base/Star Wars: Episode VII The Force Awakens.md
+2026-02-26 12:35:51,512 INFO  ../knowledge_base/DS-1 Orbital Battle Station.md
+2026-02-26 12:35:51,512 INFO  ../knowledge_base/Star Wars: Episode III Revenge of the Sith.md
+2026-02-26 12:35:51,512 INFO  ../knowledge_base/Star Wars: Episode VI Return of the Jedi.md
+2026-02-26 12:35:51,513 INFO  ../knowledge_base/R2-D2.md
+2026-02-26 12:35:51,513 INFO  ../knowledge_base/Leia Skywalker Organa Solo.md
+2026-02-26 12:35:51,513 INFO  ../knowledge_base/T-65B X-wing starfighter.md
+2026-02-26 12:35:51,513 INFO  ../knowledge_base/Han Solo.md
+2026-02-26 12:35:51,513 INFO  ../knowledge_base/Millennium Falcon.md
+2026-02-26 12:35:51,513 INFO  ../knowledge_base/Darth Sidious.md
+2026-02-26 12:35:51,514 INFO  ../knowledge_base/Clone Wars.md
+2026-02-26 12:35:51,514 INFO  ../knowledge_base/Order 66.md
+2026-02-26 12:35:51,514 INFO  ../knowledge_base/Star Wars: Episode IV A New Hope.md
+2026-02-26 12:35:51,514 INFO  ../knowledge_base/Lightsaber.md
+2026-02-26 12:35:51,515 INFO  ../knowledge_base/Yoda.md
+2026-02-26 12:35:51,515 INFO  ../knowledge_base/Mandalorian.md
+2026-02-26 12:35:51,515 INFO  ../knowledge_base/Galactic Republic.md
+2026-02-26 12:35:51,515 INFO  ../knowledge_base/Clone Trooper.md
+2026-02-26 12:35:51,516 INFO  ../knowledge_base/Star Wars: Episode V The Empire Strikes Back.md
+2026-02-26 12:35:51,516 INFO  ../knowledge_base/Anakin Skywalker.md
+2026-02-26 12:35:51,516 INFO  ../knowledge_base/injection.md
+2026-02-26 12:35:51,516 INFO  ../knowledge_base/C-3PO.md
+2026-02-26 12:35:51,516 INFO  ../knowledge_base/Tatooine.md
+2026-02-26 12:35:51,516 INFO  ../knowledge_base/Star Wars: Episode II Attack of the Clones.md
+2026-02-26 12:35:51,516 INFO  ../knowledge_base/Obi-Wan Kenobi.md
+2026-02-26 12:35:51,516 INFO Прочитано 31 документов
+2026-02-26 12:35:51,522 INFO Документы разбиты на 454 чанков
+2026-02-26 12:35:51,559 INFO Выбран локальный Qdrant
+2026-02-26 12:35:51,574 INFO Use pytorch device_name: mps
+2026-02-26 12:35:51,574 INFO Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-26 12:35:51,714 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-26 12:35:51,733 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-02-26 12:35:51,873 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-26 12:35:51,895 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-02-26 12:35:52,037 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-26 12:35:52,057 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-02-26 12:35:52,203 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-02-26 12:35:52,224 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+2026-02-26 12:35:52,367 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-26 12:35:52,388 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-02-26 12:35:52,536 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-26 12:35:52,559 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-02-26 12:35:52,725 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-02-26 12:35:52,868 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-26 12:35:52,890 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-02-26 12:35:53,082 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-26 12:35:53,103 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-02-26 12:35:53,246 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-26 12:35:53,267 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-02-26 12:35:53,422 INFO HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-02-26 12:35:53,578 INFO HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-02-26 12:35:53,751 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-26 12:35:53,772 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-02-26 12:35:53,919 INFO HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-02-26 12:35:55,585 INFO Загружено в Qdrant 454 чанков
+2026-02-26 12:35:55,585 INFO Информация о коллекции status=<CollectionStatus.GREEN: 'green'> optimizer_status=<OptimizersStatusOneOf.OK: 'ok'> warnings=None indexed_vectors_count=0 points_count=454 segments_count=1 config=CollectionConfig(params=CollectionParams(vectors=VectorParams(size=384, distance=<Distance.COSINE: 'Cosine'>, hnsw_config=None, quantization_config=None, on_disk=None, datatype=None, multivector_config=None), shard_number=None, sharding_method=None, replication_factor=None, write_consistency_factor=None, read_fan_out_factor=None, read_fan_out_delay_ms=None, on_disk_payload=None, sparse_vectors=None), hnsw_config=HnswConfig(m=16, ef_construct=100, full_scan_threshold=10000, max_indexing_threads=0, on_disk=None, payload_m=None, inline_storage=None), optimizer_config=OptimizersConfig(deleted_threshold=0.2, vacuum_min_vector_number=1000, default_segment_number=0, max_segment_size=None, memmap_threshold=None, indexing_threshold=20000, flush_interval_sec=5, max_optimization_threads=1, prevent_unoptimized=None), wal_config=WalConfig(wal_capacity_mb=32, wal_segments_ahead=0, wal_retain_closed=1), quantization_config=None, strict_mode_config=None, metadata=None) payload_schema={} update_queue=None
+2026-02-26 15:50:42,048 INFO Читаем документы...
+2026-02-26 15:50:42,327 INFO HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main "HTTP/1.1 200 OK"
+2026-02-26 15:50:42,357 INFO  ../knowledge_base_bad/The Force.md
+2026-02-26 15:50:42,358 INFO  ../knowledge_base_bad/Star Wars: Episode VIII The Last Jedi.md
+2026-02-26 15:50:42,358 INFO  ../knowledge_base_bad/Star Wars: Episode IX The Rise of Skywalker.md
+2026-02-26 15:50:42,358 INFO  ../knowledge_base_bad/Luke Skywalker.md
+2026-02-26 15:50:42,358 INFO  ../knowledge_base_bad/Chewbacca.md
+2026-02-26 15:50:42,359 INFO  ../knowledge_base_bad/Star Wars: Episode I The Phantom Menace.md
+2026-02-26 15:50:42,359 INFO  ../knowledge_base_bad/Star Wars: Episode VII The Force Awakens.md
+2026-02-26 15:50:42,359 INFO  ../knowledge_base_bad/DS-1 Orbital Battle Station.md
+2026-02-26 15:50:42,359 INFO  ../knowledge_base_bad/Star Wars: Episode III Revenge of the Sith.md
+2026-02-26 15:50:42,360 INFO  ../knowledge_base_bad/Star Wars: Episode VI Return of the Jedi.md
+2026-02-26 15:50:42,360 INFO  ../knowledge_base_bad/R2-D2.md
+2026-02-26 15:50:42,360 INFO  ../knowledge_base_bad/Leia Skywalker Organa Solo.md
+2026-02-26 15:50:42,360 INFO  ../knowledge_base_bad/T-65B X-wing starfighter.md
+2026-02-26 15:50:42,360 INFO  ../knowledge_base_bad/Han Solo.md
+2026-02-26 15:50:42,361 INFO  ../knowledge_base_bad/Millennium Falcon.md
+2026-02-26 15:50:42,361 INFO  ../knowledge_base_bad/Darth Sidious.md
+2026-02-26 15:50:42,361 INFO  ../knowledge_base_bad/Clone Wars.md
+2026-02-26 15:50:42,361 INFO  ../knowledge_base_bad/Order 66.md
+2026-02-26 15:50:42,361 INFO  ../knowledge_base_bad/Star Wars: Episode IV A New Hope.md
+2026-02-26 15:50:42,361 INFO  ../knowledge_base_bad/Lightsaber.md
+2026-02-26 15:50:42,361 INFO  ../knowledge_base_bad/Yoda.md
+2026-02-26 15:50:42,362 INFO  ../knowledge_base_bad/Mandalorian.md
+2026-02-26 15:50:42,362 INFO  ../knowledge_base_bad/Galactic Republic.md
+2026-02-26 15:50:42,362 INFO  ../knowledge_base_bad/Clone Trooper.md
+2026-02-26 15:50:42,362 INFO  ../knowledge_base_bad/Star Wars: Episode V The Empire Strikes Back.md
+2026-02-26 15:50:42,362 INFO  ../knowledge_base_bad/Anakin Skywalker.md
+2026-02-26 15:50:42,362 INFO  ../knowledge_base_bad/injection.md
+2026-02-26 15:50:42,362 INFO  ../knowledge_base_bad/C-3PO.md
+2026-02-26 15:50:42,363 INFO  ../knowledge_base_bad/Tatooine.md
+2026-02-26 15:50:42,363 INFO  ../knowledge_base_bad/Star Wars: Episode II Attack of the Clones.md
+2026-02-26 15:50:42,363 INFO  ../knowledge_base_bad/Obi-Wan Kenobi.md
+2026-02-26 15:50:42,363 INFO Прочитано 31 документов
+2026-02-26 15:50:42,369 INFO Документы разбиты на 447 чанков
+2026-02-26 15:50:42,406 INFO Выбран локальный Qdrant
+2026-02-26 15:50:42,424 INFO Use pytorch device_name: mps
+2026-02-26 15:50:42,424 INFO Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-26 15:50:42,585 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-26 15:50:42,586 WARNING Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-02-26 15:50:42,623 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-02-26 15:50:42,814 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-26 15:50:42,855 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-02-26 15:50:43,018 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-26 15:50:43,058 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-02-26 15:50:43,219 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-02-26 15:50:43,259 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+2026-02-26 15:50:43,419 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-26 15:50:43,457 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-02-26 15:50:43,623 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-26 15:50:43,662 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-02-26 15:50:43,829 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-02-26 15:50:43,990 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-26 15:50:44,028 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-02-26 15:50:44,275 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-26 15:50:44,314 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-02-26 15:50:44,475 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-26 15:50:44,516 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-02-26 15:50:44,686 INFO HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-02-26 15:50:44,853 INFO HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-02-26 15:50:45,077 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-26 15:50:45,118 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-02-26 15:50:45,290 INFO HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-02-26 15:50:47,517 INFO Загружено в Qdrant 447 чанков
+2026-02-26 15:50:47,518 INFO Информация о коллекции status=<CollectionStatus.GREEN: 'green'> optimizer_status=<OptimizersStatusOneOf.OK: 'ok'> warnings=None indexed_vectors_count=0 points_count=447 segments_count=1 config=CollectionConfig(params=CollectionParams(vectors=VectorParams(size=384, distance=<Distance.COSINE: 'Cosine'>, hnsw_config=None, quantization_config=None, on_disk=None, datatype=None, multivector_config=None), shard_number=None, sharding_method=None, replication_factor=None, write_consistency_factor=None, read_fan_out_factor=None, read_fan_out_delay_ms=None, on_disk_payload=None, sparse_vectors=None), hnsw_config=HnswConfig(m=16, ef_construct=100, full_scan_threshold=10000, max_indexing_threads=0, on_disk=None, payload_m=None, inline_storage=None), optimizer_config=OptimizersConfig(deleted_threshold=0.2, vacuum_min_vector_number=1000, default_segment_number=0, max_segment_size=None, memmap_threshold=None, indexing_threshold=20000, flush_interval_sec=5, max_optimization_threads=1, prevent_unoptimized=None), wal_config=WalConfig(wal_capacity_mb=32, wal_segments_ahead=0, wal_retain_closed=1), quantization_config=None, strict_mode_config=None, metadata=None) payload_schema={} update_queue=None
+2026-03-02 11:11:39,486 INFO Читаем документы...
+2026-03-02 11:11:39,504 INFO  ../knowledge_base_bad/The Force.md
+2026-03-02 11:11:39,504 INFO  ../knowledge_base_bad/Star Wars: Episode VIII The Last Jedi.md
+2026-03-02 11:11:39,504 INFO  ../knowledge_base_bad/Star Wars: Episode IX The Rise of Skywalker.md
+2026-03-02 11:11:39,504 INFO  ../knowledge_base_bad/Luke Skywalker.md
+2026-03-02 11:11:39,505 INFO  ../knowledge_base_bad/Chewbacca.md
+2026-03-02 11:11:39,505 INFO  ../knowledge_base_bad/Star Wars: Episode I The Phantom Menace.md
+2026-03-02 11:11:39,505 INFO  ../knowledge_base_bad/Star Wars: Episode VII The Force Awakens.md
+2026-03-02 11:11:39,505 INFO  ../knowledge_base_bad/DS-1 Orbital Battle Station.md
+2026-03-02 11:11:39,505 INFO  ../knowledge_base_bad/Star Wars: Episode III Revenge of the Sith.md
+2026-03-02 11:11:39,506 INFO  ../knowledge_base_bad/Star Wars: Episode VI Return of the Jedi.md
+2026-03-02 11:11:39,506 INFO  ../knowledge_base_bad/R2-D2.md
+2026-03-02 11:11:39,506 INFO  ../knowledge_base_bad/Leia Skywalker Organa Solo.md
+2026-03-02 11:11:39,506 INFO  ../knowledge_base_bad/T-65B X-wing starfighter.md
+2026-03-02 11:11:39,506 INFO  ../knowledge_base_bad/Han Solo.md
+2026-03-02 11:11:39,506 INFO  ../knowledge_base_bad/Millennium Falcon.md
+2026-03-02 11:11:39,506 INFO  ../knowledge_base_bad/Darth Sidious.md
+2026-03-02 11:11:39,506 INFO  ../knowledge_base_bad/Clone Wars.md
+2026-03-02 11:11:39,506 INFO  ../knowledge_base_bad/Order 66.md
+2026-03-02 11:11:39,507 INFO  ../knowledge_base_bad/Star Wars: Episode IV A New Hope.md
+2026-03-02 11:11:39,507 INFO  ../knowledge_base_bad/Lightsaber.md
+2026-03-02 11:11:39,507 INFO  ../knowledge_base_bad/Yoda.md
+2026-03-02 11:11:39,507 INFO  ../knowledge_base_bad/Mandalorian.md
+2026-03-02 11:11:39,507 INFO  ../knowledge_base_bad/Galactic Republic.md
+2026-03-02 11:11:39,507 INFO  ../knowledge_base_bad/Clone Trooper.md
+2026-03-02 11:11:39,507 INFO  ../knowledge_base_bad/Star Wars: Episode V The Empire Strikes Back.md
+2026-03-02 11:11:39,507 INFO  ../knowledge_base_bad/Anakin Skywalker.md
+2026-03-02 11:11:39,508 INFO  ../knowledge_base_bad/injection.md
+2026-03-02 11:11:39,508 INFO  ../knowledge_base_bad/C-3PO.md
+2026-03-02 11:11:39,508 INFO  ../knowledge_base_bad/Tatooine.md
+2026-03-02 11:11:39,509 INFO  ../knowledge_base_bad/Star Wars: Episode II Attack of the Clones.md
+2026-03-02 11:11:39,509 INFO  ../knowledge_base_bad/Obi-Wan Kenobi.md
+2026-03-02 11:11:39,509 INFO Прочитано 31 документов
+2026-03-02 11:11:39,513 INFO Документы разбиты на 447 чанков
+2026-03-02 11:11:39,535 INFO Выбран локальный Qdrant
+2026-03-02 11:11:39,545 INFO Use pytorch device_name: mps
+2026-03-02 11:11:39,545 INFO Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-03-02 11:11:39,550 WARNING '[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-03-02 11:11:39,550 WARNING Retrying in 1s [Retry 1/5].
+2026-03-02 11:27:34,074 INFO Читаем документы...
+2026-03-02 11:27:34,269 INFO HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main "HTTP/1.1 200 OK"
+2026-03-02 11:27:34,288 INFO  ../knowledge_base_bad/The Force.md
+2026-03-02 11:27:34,288 INFO  ../knowledge_base_bad/Star Wars: Episode VIII The Last Jedi.md
+2026-03-02 11:27:34,289 INFO  ../knowledge_base_bad/Star Wars: Episode IX The Rise of Skywalker.md
+2026-03-02 11:27:34,289 INFO  ../knowledge_base_bad/Luke Skywalker.md
+2026-03-02 11:27:34,289 INFO  ../knowledge_base_bad/Chewbacca.md
+2026-03-02 11:27:34,289 INFO  ../knowledge_base_bad/Star Wars: Episode I The Phantom Menace.md
+2026-03-02 11:27:34,289 INFO  ../knowledge_base_bad/Star Wars: Episode VII The Force Awakens.md
+2026-03-02 11:27:34,289 INFO  ../knowledge_base_bad/DS-1 Orbital Battle Station.md
+2026-03-02 11:27:34,290 INFO  ../knowledge_base_bad/Star Wars: Episode III Revenge of the Sith.md
+2026-03-02 11:27:34,290 INFO  ../knowledge_base_bad/Star Wars: Episode VI Return of the Jedi.md
+2026-03-02 11:27:34,290 INFO  ../knowledge_base_bad/R2-D2.md
+2026-03-02 11:27:34,290 INFO  ../knowledge_base_bad/Leia Skywalker Organa Solo.md
+2026-03-02 11:27:34,290 INFO  ../knowledge_base_bad/T-65B X-wing starfighter.md
+2026-03-02 11:27:34,290 INFO  ../knowledge_base_bad/Han Solo.md
+2026-03-02 11:27:34,291 INFO  ../knowledge_base_bad/Millennium Falcon.md
+2026-03-02 11:27:34,291 INFO  ../knowledge_base_bad/Darth Sidious.md
+2026-03-02 11:27:34,291 INFO  ../knowledge_base_bad/Clone Wars.md
+2026-03-02 11:27:34,291 INFO  ../knowledge_base_bad/Order 66.md
+2026-03-02 11:27:34,291 INFO  ../knowledge_base_bad/Star Wars: Episode IV A New Hope.md
+2026-03-02 11:27:34,291 INFO  ../knowledge_base_bad/Lightsaber.md
+2026-03-02 11:27:34,291 INFO  ../knowledge_base_bad/Yoda.md
+2026-03-02 11:27:34,292 INFO  ../knowledge_base_bad/Mandalorian.md
+2026-03-02 11:27:34,292 INFO  ../knowledge_base_bad/Galactic Republic.md
+2026-03-02 11:27:34,292 INFO  ../knowledge_base_bad/Clone Trooper.md
+2026-03-02 11:27:34,292 INFO  ../knowledge_base_bad/Star Wars: Episode V The Empire Strikes Back.md
+2026-03-02 11:27:34,292 INFO  ../knowledge_base_bad/Anakin Skywalker.md
+2026-03-02 11:27:34,292 INFO  ../knowledge_base_bad/injection.md
+2026-03-02 11:27:34,292 INFO  ../knowledge_base_bad/C-3PO.md
+2026-03-02 11:27:34,293 INFO  ../knowledge_base_bad/Tatooine.md
+2026-03-02 11:27:34,293 INFO  ../knowledge_base_bad/Star Wars: Episode II Attack of the Clones.md
+2026-03-02 11:27:34,293 INFO  ../knowledge_base_bad/Obi-Wan Kenobi.md
+2026-03-02 11:27:34,293 INFO Прочитано 31 документов
+2026-03-02 11:27:34,299 INFO Документы разбиты на 447 чанков
+2026-03-02 11:27:34,328 INFO HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2026-03-02 11:27:34,364 INFO Выбран серверный Qdrant
+2026-03-02 11:27:34,442 INFO HTTP Request: PUT http://localhost:6333/collections/knowledge_base_bad "HTTP/1.1 200 OK"
+2026-03-02 11:27:34,456 INFO Use pytorch device_name: mps
+2026-03-02 11:27:34,456 INFO Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-03-02 11:27:34,582 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-02 11:27:34,599 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-03-02 11:27:34,737 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-02 11:27:34,777 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-03-02 11:27:34,908 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-02 11:27:34,925 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-03-02 11:27:35,056 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-03-02 11:27:35,072 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+2026-03-02 11:27:35,199 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-02 11:27:35,200 WARNING Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-03-02 11:27:35,216 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-03-02 11:27:35,344 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-02 11:27:35,359 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-03-02 11:27:35,489 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-03-02 11:27:35,618 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-02 11:27:35,633 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-03-02 11:27:35,831 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-02 11:27:35,853 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-03-02 11:27:35,980 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-02 11:27:35,996 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-02 11:27:36,128 INFO HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-02 11:27:36,260 INFO HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-02 11:27:36,426 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-02 11:27:36,441 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-03-02 11:27:36,574 INFO HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-03-02 11:27:36,815 INFO HTTP Request: GET http://localhost:6333/collections/knowledge_base_bad "HTTP/1.1 200 OK"
+2026-03-02 11:27:37,186 INFO HTTP Request: PUT http://localhost:6333/collections/knowledge_base_bad/points?wait=true "HTTP/1.1 200 OK"
+2026-03-02 11:27:37,371 INFO HTTP Request: PUT http://localhost:6333/collections/knowledge_base_bad/points?wait=true "HTTP/1.1 200 OK"
+2026-03-02 11:27:37,581 INFO HTTP Request: PUT http://localhost:6333/collections/knowledge_base_bad/points?wait=true "HTTP/1.1 200 OK"
+2026-03-02 11:27:37,752 INFO HTTP Request: PUT http://localhost:6333/collections/knowledge_base_bad/points?wait=true "HTTP/1.1 200 OK"
+2026-03-02 11:27:37,926 INFO HTTP Request: PUT http://localhost:6333/collections/knowledge_base_bad/points?wait=true "HTTP/1.1 200 OK"
+2026-03-02 11:27:38,095 INFO HTTP Request: PUT http://localhost:6333/collections/knowledge_base_bad/points?wait=true "HTTP/1.1 200 OK"
+2026-03-02 11:27:38,269 INFO HTTP Request: PUT http://localhost:6333/collections/knowledge_base_bad/points?wait=true "HTTP/1.1 200 OK"
+2026-03-02 11:27:38,269 INFO Загружено в Qdrant 447 чанков
+2026-03-02 11:27:38,271 INFO HTTP Request: GET http://localhost:6333/collections/knowledge_base_bad "HTTP/1.1 200 OK"
+2026-03-02 11:27:38,271 INFO Информация о коллекции status=<CollectionStatus.GREEN: 'green'> optimizer_status=<OptimizersStatusOneOf.OK: 'ok'> warnings=None indexed_vectors_count=0 points_count=447 segments_count=6 config=CollectionConfig(params=CollectionParams(vectors=VectorParams(size=384, distance=<Distance.COSINE: 'Cosine'>, hnsw_config=None, quantization_config=None, on_disk=None, datatype=None, multivector_config=None), shard_number=1, sharding_method=None, replication_factor=1, write_consistency_factor=1, read_fan_out_factor=None, read_fan_out_delay_ms=None, on_disk_payload=True, sparse_vectors=None), hnsw_config=HnswConfig(m=16, ef_construct=100, full_scan_threshold=10000, max_indexing_threads=0, on_disk=False, payload_m=None, inline_storage=None), optimizer_config=OptimizersConfig(deleted_threshold=0.2, vacuum_min_vector_number=1000, default_segment_number=0, max_segment_size=None, memmap_threshold=None, indexing_threshold=10000, flush_interval_sec=5, max_optimization_threads=None, prevent_unoptimized=None), wal_config=WalConfig(wal_capacity_mb=32, wal_segments_ahead=0, wal_retain_closed=1), quantization_config=None, strict_mode_config=None, metadata=None) payload_schema={} update_queue=UpdateQueueInfo(length=0)
+2026-03-02 11:30:36,514 INFO Читаем документы...
+2026-03-02 11:30:36,713 INFO HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main "HTTP/1.1 200 OK"
+2026-03-02 11:30:36,726 INFO  ../knowledge_base_bad/The Force.md
+2026-03-02 11:30:36,727 INFO  ../knowledge_base_bad/Star Wars: Episode VIII The Last Jedi.md
+2026-03-02 11:30:36,727 INFO  ../knowledge_base_bad/Star Wars: Episode IX The Rise of Skywalker.md
+2026-03-02 11:30:36,727 INFO  ../knowledge_base_bad/Luke Skywalker.md
+2026-03-02 11:30:36,727 INFO  ../knowledge_base_bad/Chewbacca.md
+2026-03-02 11:30:36,727 INFO  ../knowledge_base_bad/Star Wars: Episode I The Phantom Menace.md
+2026-03-02 11:30:36,727 INFO  ../knowledge_base_bad/Star Wars: Episode VII The Force Awakens.md
+2026-03-02 11:30:36,727 INFO  ../knowledge_base_bad/DS-1 Orbital Battle Station.md
+2026-03-02 11:30:36,727 INFO  ../knowledge_base_bad/Star Wars: Episode III Revenge of the Sith.md
+2026-03-02 11:30:36,727 INFO  ../knowledge_base_bad/Star Wars: Episode VI Return of the Jedi.md
+2026-03-02 11:30:36,727 INFO  ../knowledge_base_bad/R2-D2.md
+2026-03-02 11:30:36,727 INFO  ../knowledge_base_bad/Leia Skywalker Organa Solo.md
+2026-03-02 11:30:36,727 INFO  ../knowledge_base_bad/T-65B X-wing starfighter.md
+2026-03-02 11:30:36,727 INFO  ../knowledge_base_bad/Han Solo.md
+2026-03-02 11:30:36,727 INFO  ../knowledge_base_bad/Millennium Falcon.md
+2026-03-02 11:30:36,727 INFO  ../knowledge_base_bad/Darth Sidious.md
+2026-03-02 11:30:36,727 INFO  ../knowledge_base_bad/Clone Wars.md
+2026-03-02 11:30:36,727 INFO  ../knowledge_base_bad/Order 66.md
+2026-03-02 11:30:36,727 INFO  ../knowledge_base_bad/Star Wars: Episode IV A New Hope.md
+2026-03-02 11:30:36,727 INFO  ../knowledge_base_bad/Lightsaber.md
+2026-03-02 11:30:36,727 INFO  ../knowledge_base_bad/Yoda.md
+2026-03-02 11:30:36,727 INFO  ../knowledge_base_bad/Mandalorian.md
+2026-03-02 11:30:36,727 INFO  ../knowledge_base_bad/Galactic Republic.md
+2026-03-02 11:30:36,727 INFO  ../knowledge_base_bad/Clone Trooper.md
+2026-03-02 11:30:36,727 INFO  ../knowledge_base_bad/Star Wars: Episode V The Empire Strikes Back.md
+2026-03-02 11:30:36,727 INFO  ../knowledge_base_bad/Anakin Skywalker.md
+2026-03-02 11:30:36,727 INFO  ../knowledge_base_bad/injection.md
+2026-03-02 11:30:36,727 INFO  ../knowledge_base_bad/C-3PO.md
+2026-03-02 11:30:36,727 INFO  ../knowledge_base_bad/Tatooine.md
+2026-03-02 11:30:36,727 INFO  ../knowledge_base_bad/Star Wars: Episode II Attack of the Clones.md
+2026-03-02 11:30:36,728 INFO  ../knowledge_base_bad/Obi-Wan Kenobi.md
+2026-03-02 11:30:36,728 INFO Прочитано 31 документов
+2026-03-02 11:30:36,733 INFO Документы разбиты на 447 чанков
+2026-03-02 11:30:36,770 INFO HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2026-03-02 11:30:36,772 INFO Выбран серверный Qdrant
+2026-03-02 11:30:36,838 INFO HTTP Request: PUT http://localhost:6333/collections/knowledge_base "HTTP/1.1 200 OK"
+2026-03-02 11:30:36,850 INFO Use pytorch device_name: mps
+2026-03-02 11:30:36,850 INFO Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-03-02 11:30:36,985 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-02 11:30:37,003 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-03-02 11:30:37,132 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-02 11:30:37,149 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-03-02 11:30:37,284 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-02 11:30:37,308 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-03-02 11:30:37,437 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-03-02 11:30:37,453 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+2026-03-02 11:30:37,583 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-02 11:30:37,598 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-03-02 11:30:37,735 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-02 11:30:37,750 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-03-02 11:30:37,886 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-03-02 11:30:38,012 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-02 11:30:38,028 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-03-02 11:30:38,228 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-02 11:30:38,243 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-03-02 11:30:38,371 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-02 11:30:38,372 WARNING Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-03-02 11:30:38,387 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-02 11:30:38,522 INFO HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-02 11:30:38,657 INFO HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-02 11:30:38,817 INFO HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-02 11:30:38,833 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-03-02 11:30:38,964 INFO HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-03-02 11:30:39,136 INFO HTTP Request: GET http://localhost:6333/collections/knowledge_base "HTTP/1.1 200 OK"
+2026-03-02 11:30:39,422 INFO HTTP Request: PUT http://localhost:6333/collections/knowledge_base/points?wait=true "HTTP/1.1 200 OK"
+2026-03-02 11:30:39,606 INFO HTTP Request: PUT http://localhost:6333/collections/knowledge_base/points?wait=true "HTTP/1.1 200 OK"
+2026-03-02 11:30:39,811 INFO HTTP Request: PUT http://localhost:6333/collections/knowledge_base/points?wait=true "HTTP/1.1 200 OK"
+2026-03-02 11:30:39,980 INFO HTTP Request: PUT http://localhost:6333/collections/knowledge_base/points?wait=true "HTTP/1.1 200 OK"
+2026-03-02 11:30:40,152 INFO HTTP Request: PUT http://localhost:6333/collections/knowledge_base/points?wait=true "HTTP/1.1 200 OK"
+2026-03-02 11:30:40,318 INFO HTTP Request: PUT http://localhost:6333/collections/knowledge_base/points?wait=true "HTTP/1.1 200 OK"
+2026-03-02 11:30:40,492 INFO HTTP Request: PUT http://localhost:6333/collections/knowledge_base/points?wait=true "HTTP/1.1 200 OK"
+2026-03-02 11:30:40,492 INFO Загружено в Qdrant 447 чанков
+2026-03-02 11:30:40,494 INFO HTTP Request: GET http://localhost:6333/collections/knowledge_base "HTTP/1.1 200 OK"
+2026-03-02 11:30:40,494 INFO Информация о коллекции status=<CollectionStatus.GREEN: 'green'> optimizer_status=<OptimizersStatusOneOf.OK: 'ok'> warnings=None indexed_vectors_count=0 points_count=447 segments_count=6 config=CollectionConfig(params=CollectionParams(vectors=VectorParams(size=384, distance=<Distance.COSINE: 'Cosine'>, hnsw_config=None, quantization_config=None, on_disk=None, datatype=None, multivector_config=None), shard_number=1, sharding_method=None, replication_factor=1, write_consistency_factor=1, read_fan_out_factor=None, read_fan_out_delay_ms=None, on_disk_payload=True, sparse_vectors=None), hnsw_config=HnswConfig(m=16, ef_construct=100, full_scan_threshold=10000, max_indexing_threads=0, on_disk=False, payload_m=None, inline_storage=None), optimizer_config=OptimizersConfig(deleted_threshold=0.2, vacuum_min_vector_number=1000, default_segment_number=0, max_segment_size=None, memmap_threshold=None, indexing_threshold=10000, flush_interval_sec=5, max_optimization_threads=None, prevent_unoptimized=None), wal_config=WalConfig(wal_capacity_mb=32, wal_segments_ahead=0, wal_retain_closed=1), quantization_config=None, strict_mode_config=None, metadata=None) payload_schema={} update_queue=UpdateQueueInfo(length=0)
+

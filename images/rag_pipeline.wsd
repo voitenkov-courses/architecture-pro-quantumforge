@@ -1,0 +1,35 @@
+@startuml RAG Pipeline
+Title Тестирование запроса в RAG pipeline
+autonumber
+' skinparam sequenceMessageAlign center
+participant "Test app" as test
+box "Система RAG-bot" #LightBlue
+participant "Main app" as main
+database "Qdrant" as db
+participant "Security filter" as filter
+participant "Agent" as agent
+participant "Evaluator" as eval
+end box
+participant "LLM YandexGPT" as llm
+
+loop по всем золотым вопросам
+test -> main++: rag_chain(question)
+main -> db++: get_collection
+alt Коллекция пустая
+return Error Empty collection
+else
+main -> db++: similarity_search(question)
+return {retrived_docs}
+main -> filter++: filter(retrived_docs)
+return {filtered_docs}
+main -> agent++: agent.stream
+agent -> llm++: question, filtered_docs as context
+return {AI answer}
+return {AI answer}
+main -> eval++: evaluate(question, answer)
+return success (True|False)
+main -> main: logging results
+end
+
+end
+
